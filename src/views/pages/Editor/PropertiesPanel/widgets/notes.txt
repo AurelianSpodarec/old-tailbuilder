@@ -1,0 +1,84 @@
+
+
+    const tailwindClasses = {
+        "spacing": [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 72, 80, 96],
+        "sizes": ["xs", "sm", "base", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "6xl", "7xl", "8xl", "9xl"]
+    };
+
+    // = Sizes
+    // Sizes: xs, sm, base, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl, 7xl, 8xl, 9xl
+    // Properties using them: text, max-w-(also using: 0, none) 
+
+    // = Spacing
+    // Spacing: 0
+    // Properties using them: w(also using w-px), 
+
+    // How to parse:
+
+    // Needs to be dynamic in case a user adds something in the config plus can't re-write this for all elements
+    // = Spacing
+    // Margin & Padding & Space Between
+
+    // Margin
+    // [something]-auto
+
+    // == Type
+    // m - margin - all combinations with [pos]
+    // p - padding - all combinations with [pos]
+
+    // == Pos - all combinations with [spacing]
+    // t = top
+    // r = right
+    // b = bottom
+    // l = left
+
+    // [type]+[post]+[spacing]
+
+    // Get All Grid classes
+
+    // Tailwind:
+    // Parse anything that starts with 'grid', 'gap
+
+    // GRID
+    // grid
+    // grid-cols-[1-12], grid-cols-none
+    // col-auto, col-span-[1-12], col-span-full, col-start-[1-12], col-start-auto, col-end-[1-12], col-end-auto
+    // grid-rows-1[1-6], gird-rows-none
+
+
+    // FLEX
+
+    // == Justify Content
+    // justify-start
+    // justify-end
+    // justify-center
+    // justify-between
+    // justify-around
+    // justify-evenly
+
+    // ==
+
+
+
+
+
+          {/* <div>
+                <h3>Auto</h3>
+                flex-start
+                center
+                flex-end
+                stretch
+            </div>
+            <div>
+                <h3>Freestyle Woo</h3>
+                text-left
+                column-center
+                right
+                top
+                row-center
+                bottom
+            </div> */}
+
+    {/* Flex */}
+            {/* GRid */}
+            {/* Freestyle */}
